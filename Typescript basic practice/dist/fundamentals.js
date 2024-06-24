@@ -1,9 +1,7 @@
-//Annotation
-var sales = 123456789;
-var numbers = [1, 2, 3];
-//Tuples
-var user = [1, 'Chibi'];
-//Enums
+"use strict";
+let sales = 123456789;
+let numbers = [1, 2, 3];
+let user = [1, 'Chibi'];
 var Size;
 (function (Size) {
     Size[Size["Small"] = 1] = "Small";
@@ -11,13 +9,12 @@ var Size;
     Size[Size["Large"] = 3] = "Large";
 })(Size || (Size = {}));
 ;
-//Functions
 function calculateTax(income) {
     return income * .2;
 }
-//Objects
-var employee = {
+let employee = {
     id: 1,
     name: 'Chibi',
-    retire: function (date) { return date; },
+    retire: (date) => { return date; },
 };
+//# sourceMappingURL=fundamentals.js.map
